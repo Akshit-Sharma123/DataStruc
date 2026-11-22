@@ -5,7 +5,10 @@ public class seventh {
         for(int i=0;i<s.length();i++){
             char ch=s.charAt(i);
             HashSet<Character> p=new HashSet<>();
-
+            if(s.length()-i+1<=ans){
+                //System.out.println(i);
+                break;
+            }
             for(int j=i;j<s.length();j++){
                 p.add(s.charAt(j));
                 if(j-i+1==p.size()){
