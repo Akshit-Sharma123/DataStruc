@@ -1,3 +1,4 @@
+//no of substrings containing all 3 characters
 import java.util.*;
 public class fourtheenth {
     public int numberOfSubstrings(String s) {
